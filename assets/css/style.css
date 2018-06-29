@@ -1,0 +1,102 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    box-sizing: border-box;
+    background-image: linear-gradient( to right bottom, #7ed56fda, #28b485d2), url(#);
+    background-size: cover;
+}
+
+.header-instructions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    border: solid black .2rem;
+    color: black;
+    width: 40rem;
+    text-align: center;
+    font-size: 3.4rem;
+    margin: 0 auto;
+
+}
+
+.instructions {
+    margin: 2rem 0;
+    border: dotted black .15rem;
+    width: 90vw;
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1rem;
+    text
+}
+
+.point-gametracker {
+    display:flex;
+    justify-content: space-around;
+    height: 40rem;
+    align-items: space-around;
+}
+
+.number-generated {
+    border: solid red .4rem;
+    width: 60rem;
+    height: 20rem;
+    font-size: 10rem;
+    background-color: #1d1d30;
+    color: red;
+    position: relative;
+}
+
+.number-generated h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gametracker {
+    border: solid red .4rem;
+    align-items: space-around;
+    position: relative;
+    width: 32rem;
+    height: 20rem;
+    background-color: #1d1d30;
+    color: red;
+    font-size: 3rem;
+}
+
+.wins {
+    position: absolute;
+    /* top: 33.3%; */
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.losses {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.restart {
+    width: 75vw;
+}

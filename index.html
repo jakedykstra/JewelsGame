@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="header-instructions">
+        <div class="flex-row">
+            <h1 class="header">Crystal Collector</h1>
+        </div>
+        <div class="flex-row">
+            <div class="instructions">
+                <b>Instructions:</b>
+                <ol>
+                    <li>You will be given a random number at the start of the game.</li>
+                    <li>There are four crystals below. By clicking on a crystal you will add a specific amoutn of points to your total score.</li>
+                    <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random  number.</li>
+                    <br>
+
+                    <p>The value of each crystal is hidden from you until you click on it.
+                        <br> Each time when the game starts, the game will change the values of each crystal.</p>
+                    <br>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="point-gametracker">
+        <div class="number-generated"><h1>000</h1></div>
+        <div class="gametracker">
+            <div class="wins"> Wins: 0 </div>
+            <div class="losses">Losses: 0</div>
+        </div>
+    </div>
+    <div class="crystals container btn-clicked">
+        <div class="crystal-1">
+            <button>
+                <img src="./assets/images/crystal_1.PNG" alt="Crystal Version 1">
+            </button>
+        </div>
+        <div class="crystal-2">
+            <button>
+                <img src="./assets/images/crystal_2.PNG" alt="Crystal Version 2">
+            </button>
+        </div>
+        <div class="crystal-3">
+            <div class="crystal-3">
+                <button>
+                    <img src="./assets/images/crystal_3.PNG" alt="Crystal Version 3">
+                </button>
+            </div>
+        </div>
+        <div class="crystal-4">
+            <div class="crystal-4">
+                <button>
+                    <img src="./assets/images/crystal_4.PNG" alt="Crystal Version 4">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="total-score-section">
+        <div class="score"> Your total score is: 0 </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+    <script>
+        reset();
+    </script>
+</body>
+
+</html>
+
+<!-- portfolio link https://github.com/jakedykstra/Responsive-Portfolio -->
